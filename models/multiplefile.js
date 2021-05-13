@@ -13,6 +13,16 @@ const mulitipleFileSchema = new Schema(
       required: true,
     },
 
+    salary: {
+      type: String,
+      required: true,
+    },
+
+    subject: {
+      type: String,
+      required: true,
+    },
+
     phoneNumber: {
       type: Number,
       required: true,
